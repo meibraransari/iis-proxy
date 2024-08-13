@@ -1,9 +1,9 @@
 ---
 Created: 2024-08-13T14:31:59+05:30
-Updated: 2024-08-13T14:53:21+05:30
+Updated: 2024-08-13T14:56:35+05:30
 Maintainer: Ibrar Ansari
 ---
-# IIS-Proxy
+# IIS-Proxy Setup on Windows Server 2022
 
 #### Prerequisites:
 - IIS must be installed and service must be active.
@@ -13,18 +13,25 @@ Maintainer: Ibrar Ansari
 To setup IIS Reverse proxy you must install the below addons first. 
 - [URL Rewrite](https://www.iis.net/downloads/microsoft/url-rewrite) 
 - [Application Request Routing](https://www.iis.net/downloads/microsoft/application-request-routing) 
-### Enable Application request routing
+
+---
+
+#### Enable Application request routing
 
 ![11png](./assets/11.png)
 
 ![12png](./assets/12.png)
 
+---
 ### Setup reverse Proxy
 
 ![01png](./assets/01.png)
 ![02png](./assets/02.png)
 ![03png](./assets/03.png)
 ![04png](./assets/04.png)
+
+---
+
 ### Test reverse Proxy
 
 ![22png](./assets/22.png)
